@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<div class="app_wrapper">
+    <p class="heading">Convert <span class="bold_text">eur</span> to <span class="bold_text">pln</span></p>
+    <section class="form_wrapper">
+        <img src="assets/img/hat.png" alt="black hat" class="icon">
+        <form>
+            <label for="amount_input" class="label">enter <span class="bold_text"> eur</span> amount</label>
+            <input type="text" id="amount_input" class="amount_input">
+            <button type="submit" id="btn_submit" class="btn_submit">convert to pln</button>
+        </form>
+    </section>
+    <ul class="results_wrapper" id="results_wrapper"></ul>
+</div>
+<script src="dist/bundle.js"></script>
+</body>
+</html>
